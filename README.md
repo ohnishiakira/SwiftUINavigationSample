@@ -27,9 +27,9 @@ struct FirstView: View {
 }
 ```
 
-- `@State var direction: NavigationDirection?`の定義
-- view modidfier `.handleNavigation($direction)`
-- `direction = .push(destination: .second)`
+- `@State var direction: NavigationDirection?`を定義する
+- view modifier `.handleNavigation($direction)`を追加する
+- `direction = .push(destination: .second)`で遷移する
 
 
 ### 例：ナビゲーションバーからシートを表示、戻ってきてからpush
@@ -50,13 +50,13 @@ struct FirstView: View {
             Button("Next") {
                 direction = .push(destination: .second)
             }.accessibilityIdentifier("next")
-        }.navItemsInjected($direction)
+        }.navigationBarItems($direction)
             .handleNavigation($direction)
     }
 }
 ```
 
-- `.navItemsInjected($direction)`でナビゲーションバーのアイテムを表示する
+- `.navigationBarItems($direction)`でナビゲーションバーのアイテムを表示する
 - その後に`.handleNavigation($direction)`する
 
 
@@ -104,4 +104,9 @@ struct CompleteView: View {
 ```
 
 - `direction = .backToRoot`
+
+
+## 画面を追加する
+
+- `NavigationDestination`([link](https://github.com/wamazing/SwiftUINavigationSample/blob/main/SwiftUINavigationSample/Navigation/NavigationHandler.swift#L30))と`ViewFactory`にそれぞれ画面の定義を追加する
 
