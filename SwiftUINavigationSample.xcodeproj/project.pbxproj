@@ -14,6 +14,17 @@
 		E9CD876E27BB25EB0056BDE2 /* SwiftUINavigationSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD876D27BB25EB0056BDE2 /* SwiftUINavigationSampleTests.swift */; };
 		E9CD877827BB25EB0056BDE2 /* SwiftUINavigationSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD877727BB25EB0056BDE2 /* SwiftUINavigationSampleUITests.swift */; };
 		E9CD877A27BB25EB0056BDE2 /* SwiftUINavigationSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD877927BB25EB0056BDE2 /* SwiftUINavigationSampleUITestsLaunchTests.swift */; };
+		E9CD878727BB26240056BDE2 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD878627BB26230056BDE2 /* FirstView.swift */; };
+		E9CD878A27BB26430056BDE2 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD878927BB26430056BDE2 /* CartView.swift */; };
+		E9CD878D27BB26670056BDE2 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD878C27BB26670056BDE2 /* FavoritesView.swift */; };
+		E9CD878F27BB26760056BDE2 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD878E27BB26760056BDE2 /* SecondView.swift */; };
+		E9CD879227BB269E0056BDE2 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD879127BB269E0056BDE2 /* ThirdView.swift */; };
+		E9CD879427BB26AD0056BDE2 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD879327BB26AD0056BDE2 /* ProductView.swift */; };
+		E9CD879627BB26C20056BDE2 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD879527BB26C20056BDE2 /* OrderView.swift */; };
+		E9CD879827BB26D10056BDE2 /* CompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD879727BB26D10056BDE2 /* CompleteView.swift */; };
+		E9CD879B27BB26F10056BDE2 /* NavigationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD879A27BB26F10056BDE2 /* NavigationUtil.swift */; };
+		E9CD879D27BB270E0056BDE2 /* NavigationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD879C27BB270E0056BDE2 /* NavigationHandler.swift */; };
+		E9CD879F27BB273C0056BDE2 /* NavigationBarItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD879E27BB273C0056BDE2 /* NavigationBarItems.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,18 @@
 		E9CD877327BB25EB0056BDE2 /* SwiftUINavigationSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUINavigationSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9CD877727BB25EB0056BDE2 /* SwiftUINavigationSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINavigationSampleUITests.swift; sourceTree = "<group>"; };
 		E9CD877927BB25EB0056BDE2 /* SwiftUINavigationSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINavigationSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E9CD878627BB26230056BDE2 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		E9CD878927BB26430056BDE2 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		E9CD878C27BB26670056BDE2 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		E9CD878E27BB26760056BDE2 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		E9CD879027BB26880056BDE2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E9CD879127BB269E0056BDE2 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		E9CD879327BB26AD0056BDE2 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		E9CD879527BB26C20056BDE2 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		E9CD879727BB26D10056BDE2 /* CompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteView.swift; sourceTree = "<group>"; };
+		E9CD879A27BB26F10056BDE2 /* NavigationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUtil.swift; sourceTree = "<group>"; };
+		E9CD879C27BB270E0056BDE2 /* NavigationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationHandler.swift; sourceTree = "<group>"; };
+		E9CD879E27BB273C0056BDE2 /* NavigationBarItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarItems.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +97,7 @@
 		E9CD875027BB25EA0056BDE2 = {
 			isa = PBXGroup;
 			children = (
+				E9CD879027BB26880056BDE2 /* README.md */,
 				E9CD875B27BB25EA0056BDE2 /* SwiftUINavigationSample */,
 				E9CD876C27BB25EB0056BDE2 /* SwiftUINavigationSampleTests */,
 				E9CD877627BB25EB0056BDE2 /* SwiftUINavigationSampleUITests */,
@@ -96,6 +120,9 @@
 			children = (
 				E9CD875C27BB25EA0056BDE2 /* SwiftUINavigationSampleApp.swift */,
 				E9CD875E27BB25EA0056BDE2 /* ContentView.swift */,
+				E9CD879927BB26E00056BDE2 /* Navigation */,
+				E9CD878B27BB26520056BDE2 /* Sheets */,
+				E9CD878827BB26320056BDE2 /* Screens */,
 				E9CD876027BB25EB0056BDE2 /* Assets.xcassets */,
 				E9CD876227BB25EB0056BDE2 /* Preview Content */,
 			);
@@ -125,6 +152,38 @@
 				E9CD877927BB25EB0056BDE2 /* SwiftUINavigationSampleUITestsLaunchTests.swift */,
 			);
 			path = SwiftUINavigationSampleUITests;
+			sourceTree = "<group>";
+		};
+		E9CD878827BB26320056BDE2 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E9CD878627BB26230056BDE2 /* FirstView.swift */,
+				E9CD878E27BB26760056BDE2 /* SecondView.swift */,
+				E9CD879127BB269E0056BDE2 /* ThirdView.swift */,
+				E9CD879327BB26AD0056BDE2 /* ProductView.swift */,
+				E9CD879527BB26C20056BDE2 /* OrderView.swift */,
+				E9CD879727BB26D10056BDE2 /* CompleteView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E9CD878B27BB26520056BDE2 /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				E9CD878927BB26430056BDE2 /* CartView.swift */,
+				E9CD878C27BB26670056BDE2 /* FavoritesView.swift */,
+			);
+			path = Sheets;
+			sourceTree = "<group>";
+		};
+		E9CD879927BB26E00056BDE2 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				E9CD879A27BB26F10056BDE2 /* NavigationUtil.swift */,
+				E9CD879C27BB270E0056BDE2 /* NavigationHandler.swift */,
+				E9CD879E27BB273C0056BDE2 /* NavigationBarItems.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +316,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9CD879D27BB270E0056BDE2 /* NavigationHandler.swift in Sources */,
+				E9CD879427BB26AD0056BDE2 /* ProductView.swift in Sources */,
+				E9CD879227BB269E0056BDE2 /* ThirdView.swift in Sources */,
+				E9CD878F27BB26760056BDE2 /* SecondView.swift in Sources */,
+				E9CD878D27BB26670056BDE2 /* FavoritesView.swift in Sources */,
+				E9CD879B27BB26F10056BDE2 /* NavigationUtil.swift in Sources */,
 				E9CD875F27BB25EA0056BDE2 /* ContentView.swift in Sources */,
+				E9CD879F27BB273C0056BDE2 /* NavigationBarItems.swift in Sources */,
+				E9CD878727BB26240056BDE2 /* FirstView.swift in Sources */,
+				E9CD879627BB26C20056BDE2 /* OrderView.swift in Sources */,
+				E9CD878A27BB26430056BDE2 /* CartView.swift in Sources */,
 				E9CD875D27BB25EA0056BDE2 /* SwiftUINavigationSampleApp.swift in Sources */,
+				E9CD879827BB26D10056BDE2 /* CompleteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

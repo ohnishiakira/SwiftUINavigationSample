@@ -8,9 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    // TODO: タブをタップするとルートに戻ってほしい
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            firstTab
+        }
+    }
+
+    var firstTab: some View {
+        NavigationView {
+            FirstView()
+        }.tabItem {
+            Image(systemName: "1.square.fill")
+            Text("Tab 1")
+        }
     }
 }
 
